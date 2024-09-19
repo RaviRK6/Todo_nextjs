@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Toast css */
+.custom-toast-item {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border-left: 4px solid orange;
+}
+.custom-toast-success {
+  border-left: 4px solid #61d345;
+}
+.custom-toast-error {
+  border-left: 4px solid #ff4b4b;
+}
